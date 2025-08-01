@@ -4,6 +4,6 @@ This repository is a curated collection of my data science projects
 ## Projects
 
 ### [VA Helper](./VA-Helper)
-A Phase 1 RAG prototype combining VA.gov policy documents with community insights to assist veterans navigating tinnitus disability claims process
+A Phase 1 RAG prototype assistant combining official VA policy documents with community insights for veterans navigating tinnitus claims.
 
 ### [TBA]
