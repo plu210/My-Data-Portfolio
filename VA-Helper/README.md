@@ -18,7 +18,7 @@ Many veterans are overwhelmed by the vague eligibility rules, unclear instructio
 ## Setup
 1. **Install dependencies**
    - Python 3.11+
-   - See `./requirements.txt` for dependencies:
+   - See [`requirements.txt`](./requirements.txt) for dependencies:
    ```
    pip install -r requirements.txt
    ```
@@ -72,7 +72,7 @@ If the app loads and you can submit a question, you’re good to go!
   - Veteran Readiness & Employment (VRE)
 
 ## References
-See ./references.md for full list
+See [`references.md`](./references.md) for full list of data sources and inspirations.
 
 ## _Disclaimer_
 This is an experimental project and is not affiliated with or endorsed by the U.S. Department of Veterans Affairs. 
