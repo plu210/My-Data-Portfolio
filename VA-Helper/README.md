@@ -34,7 +34,7 @@ For Ollama installation, see the [Official Ollama Documentation](https://github.
    - This repo includes sample data in `./pdf_data/` and `./community_data/`. 
 
 ## How To Run
-Navigate to the `./VAHelper` directory and run:
+Navigate to the `./VA-Helper` directory and run:
 ```
 python load_data.py
 ```
@@ -70,6 +70,9 @@ If the app loads and you can submit a question, you’re good to go!
   - Other Disability Claims
   - Education & Training Benefits
   - Veteran Readiness & Employment (VRE)
+
+## References
+See ./references.md for full list
 
 ## _Disclaimer_
 This is an experimental project and is not affiliated with or endorsed by the U.S. Department of Veterans Affairs. 
