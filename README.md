@@ -7,6 +7,19 @@ Hi, I'm Jack P. Lu, and this repository is a curated collection of my personal d
 _Solo Project_
 
 A Phase 1 RAG prototype assistant combining official VA policy documents with community insights for veterans navigating tinnitus claims.
+
+<table>
+  <tr>
+    <td><img src="./assets/VAHelper_loaddata.png" width="455"/></td>
+    <td><img src="./assets/VAHelper_pipeline.png" width="455"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Data Loading and Preprocessing:</b> Parsed, cleaned, and segmented source files into 380 document pieces, yielding 858 semantic chunks ready for vector retrieval </td>
+    <td align="center"><b>Retrieval and Generation:</b> Vectorized 858 text chunks, then retrieved and generated both <i>Official Policy</i> and <i>Community Insights</i> answers for the sample query: “Can I apply for tinnitus benefits without a formal diagnosis?” </td>
+  </tr>
+</table>
+<p align="center"><i>Click any image to view in full resolution.</i></p>
+
 [![VA Helper Demo](./VA-Helper/demo.gif)](./VA-Helper)
 
 **Tech Stack:** Python · LangChain · Ollama · Streamlit
@@ -45,7 +58,7 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
 **My contributions:**  
 - Stepped up as project manager, leading team communication, facilitating meetings, documenting action items, and tracking progress throughout the project
 - Took primary responsibility for drafting and assembling the final report and presentation, integrating technical findings with product and design highlights
-- Developed the interactive map UI for the front page (using Leaflet), including toggle functionality between map and list views  
+- Developed the interactive map UI for the front page using Leaflet, including toggle functionality between map and list views  
 - Developed the evaluation framework: independently set up the golden dataset labeling process, established the project’s performance metrics (precision@3, tagging accuracy), and document findings 
 
 *Note: This was a collaborative, end-to-end product design and ML project. Repository is private due to course policy
