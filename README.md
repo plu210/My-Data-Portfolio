@@ -25,7 +25,7 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
   </tr>
   <tr>
     <td align="center">Vibe Check Pipeline Diagram</td>
-    <td align="center">List View</td>
+    <td align="center">List View (Full App)</td>
     <td align="center">Map View (Pin Hovered)</td>
     <td align="center">Map View (Pin Clicked)</td>
   </tr>
