@@ -32,6 +32,8 @@ _Team project (4)_  **Role:** Project manager and technical contributor — led 
 
 Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and a personalized venue recommendation engine with interactive “vibe weight” sliders and a map-based UI, achieving 78% Precision@3 in vibe tagging and 62% sentiment classification accuracy on the Yelp Open Dataset.
 
+**[Read the full project report (PDF)](./docs/team020report.pdf)**
+
 <table>
   <tr>
     <td><img src="./assets/vc_pipeline.png" width="455"/></td>
