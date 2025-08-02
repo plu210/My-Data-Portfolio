@@ -9,7 +9,7 @@ _Solo Project_
 A Phase 1 RAG prototype assistant combining official VA policy documents with community insights for veterans navigating tinnitus claims.
 [![VA Helper Demo](./VA-Helper/demo.gif)](./VA-Helper)
 
-- Python · LangChain · Ollama · Streamlit · RAG
+**Tech Stack:** Python · LangChain · Ollama · Streamlit
 
 ### Vibe Check (private repo)
 _Team project (4)_  **Role:** Project manager and technical contributor — led evaluation design, coordinated team communication, and supported UI development.
@@ -18,11 +18,13 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
 
 <table>
   <tr>
+    <td><img src="./assets/vc_pipeline.png" width="455"/></td>
     <td><img src="./assets/list.png" width="455"/></td>
     <td><img src="./assets/map_hover.png" width="455"/></td>
     <td><img src="./assets/map_detail.png" width="455"/></td>
   </tr>
   <tr>
+    <td align="center">Vibe Check Pipeline Diagram</td>
     <td align="center">List View</td>
     <td align="center">Map View (Pin Hovered)</td>
     <td align="center">Map View (Pin Clicked)</td>
@@ -38,8 +40,7 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
   <i>Watch the Vibe Check project presentation on YouTube</i>
 </p>
 
-
-- Python · VADER · Google Cloud NLP · Leaflet · Front-end Prototyping
+**Tech Stack:** Python · VADER · Google Cloud NLP · HTML/JavaScript (Leaflet)
 
 **My contributions:**  
 - Stepped up as project manager, leading team communication, facilitating meetings, documenting action items, and tracking progress throughout the project
