@@ -1,9 +1,56 @@
-# My Data Project Portfolio
-This repository is a curated collection of my data science projects
+# Jack P. Lu's Data Project Portfolio
+Hi, I'm Jack P. Lu, and this repository is a curated collection of my personal data science projects
 
-## Projects
+## Featured Projects
 
 ### [VA Helper](./VA-Helper)
 A Phase 1 RAG prototype assistant combining official VA policy documents with community insights for veterans navigating tinnitus claims.
+[![VA Helper Demo](./VA-Helper/demo.gif)](./VA-Helper)
 
-### [TBA]
+- Python · LangChain · Ollama · Streamlit · RAG
+
+### Vibe Check (team project, private repo)
+*Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and a personalized venue recommendation engine with interactive “vibe weight” sliders and a map-based UI, achieving 78% Precision@3 in vibe tagging and 62% sentiment classification accuracy on the Yelp Open Dataset.
+
+<table>
+  <tr>
+    <td>
+      <a href="./assets/list.png">
+        <img src="./assets/list.png" width="455"/>
+      </a>
+    </td>
+    <td>
+      <a href="./assets/map_hover.png">
+        <img src="./assets/map_hover.png" width="455"/>
+      </a>
+    </td>
+    <td>
+      <a href="./assets/map_detail.png">
+        <img src="./assets/map_detail.png" width="455"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">List View</td>
+    <td align="center">Map View (Pin Hovered)</td>
+    <td align="center">Map View (Pin Clicked)</td>
+  </tr>
+</table>
+
+<p align="center"><i>Click any image to view in full resolution.</i></p>
+
+[![Watch the Vibe Check Presentation](https://img.shields.io/badge/YouTube-VibeCheck_Presentation-red?logo=youtube)](https://www.youtube.com/watch?v=5-HJOuXxcwE&ab_channel=plu1994)
+
+- Python · VADER · Google Cloud NLP · Leaflet · Front-end Prototyping
+
+**My contributions:**  
+- Stepped up as project manager, leading team communication, facilitating meetings, documenting action items, and tracking progress throughout the project
+- Took primary responsibility for drafting and assembling the final report and presentation, integrating technical findings with product and design highlights
+- Developed the interactive map UI for the front page (using Leaflet), including toggle functionality between map and list views  
+- Developed the evaluation framework: independently set up the golden dataset labeling process, established the project’s performance metrics (precision@3, tagging accuracy), and document findings 
+
+*Note: This was a collaborative, end-to-end product design and ML project. Repository is private due to course policy
+
+## About
+
+- [LinkedIn](https://linkedin.com/in/jackplu)
