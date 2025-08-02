@@ -60,13 +60,6 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
 
 **Tech Stack:** Python · VADER · Google Cloud NLP · HTML/JavaScript (Leaflet)
 
-<p align="center">
-  <img src="./assets/silencex.png" alt="silencex" width="350"/>
-</p>
-<p align="center">
-  <i>Made for the team during pitch week, when we needed some comic relief from all the “data-driven” projects.</i>
-</p>
-
 **My contributions:**  
 - Stepped up as project manager, leading team communication, facilitating meetings, documenting action items, and tracking progress throughout the project
 - Took primary responsibility for drafting and assembling the final report and presentation, integrating technical findings with product and design highlights
