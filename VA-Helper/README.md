@@ -59,6 +59,7 @@ If the app loads and you can submit a question, you’re good to go!
 ## Current Limitations
 - **Manual Reddit Integration**: Community insights from Reddit are manually reviewed and added due to challenges with automatic filtering (sarcasm, irrelevant content, data integrity issues).
 - **URL Handling**: External links within community insights are currently replaced with [link] placeholders, limiting traceability.
+- **LLM Behavior**: As with many LLM-based systems, response quality can occasionally vary, and users may need to re-submit a query to receive the most accurate or relevant answer. Improving response consistency is an area for ongoing development.
 
 ## Future Considerations
 - Integrate the VA’s Letter 10-35 MOS Noise Exposure Listing by building automated Excel ingestion and normalization tools to standardize multi-sheet, inconsistently structured data, allowing end users to directly search their MOS within VA Helper.
