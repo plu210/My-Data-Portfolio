@@ -12,7 +12,7 @@ A Phase 1 RAG prototype assistant combining official VA policy documents with co
   <tr>
     <td><img src="./assets/VAHelper_loaddata.png" width="455"/></td>
     <td><img src="./assets/VAHelper_pipeline.png" width="455"/></td>
-    <td><img src="./assets/VAHelper_prompteng.png" width="455"/></td>
+    <td><img src="./assets/VAHelper_prompt_eng.png" width="455"/></td>
     
   </tr>
   <tr>
