@@ -52,7 +52,7 @@ If the app loads and you can submit a question, you’re good to go!
 
 ## Example Questions
 - Can I apply for tinnitus benefits without a formal diagnosis?
-- How do I file a VA disability claim for tinnitus?
+- Should I still apply if I’ve been out of service for 10 years?
 - My claim got denied, what do I do?
 - Does my MOS matter?
 
