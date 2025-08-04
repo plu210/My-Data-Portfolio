@@ -1,6 +1,27 @@
 # _VA Helper_
 A Retrieval-Augmented Generation (RAG) prototype assistant combining official VA policy documents with community insights for veterans navigating tinnitus claims.
 
+---
+## Demo Gallery
+
+| Eligibility & Appeals Demo                               | Occupation-Specific Guidance                              |
+|------------------------------------------------------|-----------------------------------------------------|
+| ![](../assets/long_gif.gif)                     | ![](../assets/q4_mos.gif)                       |
+| <i> <b>Sequential Q&A Demo:</b> Demonstrates the assistant’s ability to handle multiple veteran questions in one session by providing step-by-step reasoning and structured answers for each, enabling natural follow-up interactions. </i> | <i> <b>Sample Query:</b> “Does my MOS matter?”<br> Shows the assistant reasoning through official policy and providing real-world examples, such as deployment, bootcamp, and MOS schools, from veteran community insights to clarify how military occupation affects tinnitus claim eligibility.</i> |
+---
+
+## Example Questions
+- Can I apply for tinnitus benefits without a formal diagnosis?
+- Should I still apply if I’ve been out of service for 10 years?
+- My claim got denied, what do I do?
+- Does my MOS matter?
+
+## Key Features
+- **Local LLM Deployment:** Utilizes Ollama with local LLMs, Llama-based models, ensuring privacy and independence from external APIs or cloud services.
+- **Semantic Text Chunking and Embedding:** Uses tailored chunk sizes and overlap strategies to segment and embed official and community texts, enhancing retrieval accuracy and relevance.
+- **Vector-Based Semantic Retrieval:** Implements cosine-similarity searches on embedded documents, ensuring topically relevant content retrieval from an in-memory vector database.
+- **Dual-Context RAG Pipeline:** Combines official VA policy documents and community-generated insights, providing veterans with comprehensive, balanced answers in a single response.
+
 ## Purpose
 Many veterans are overwhelmed by the vague eligibility rules, unclear instructions, or lack of timely advice. This assistant bridges the gap between policy text and practical insights. VA Helper combines official policy information from the U.S. Department of Veterans Affairs (VA) with practical insights shared by the veteran communities from Reddit. The tool generates structured, side-by-side answers to common questions veterans have about filing tinnitus claims.
 
@@ -49,12 +70,6 @@ streamlit run app.py
 to launch the app. 
 
 If the app loads and you can submit a question, you’re good to go!
-
-## Example Questions
-- Can I apply for tinnitus benefits without a formal diagnosis?
-- Should I still apply if I’ve been out of service for 10 years?
-- My claim got denied, what do I do?
-- Does my MOS matter?
 
 ## Current Limitations
 - **Manual Reddit Integration**: Community insights from Reddit are manually reviewed and added due to challenges with automatic filtering (sarcasm, irrelevant content, data integrity issues).
