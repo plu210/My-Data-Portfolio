@@ -1,7 +1,6 @@
 from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
-
 import os
 import re
 
@@ -117,7 +116,7 @@ print("Cleaned text exported to clean_pdf/ & clean_community/")
 
 # 5) INGEST: chunk the cleaned text
 # Use RecursiveCharacterTextSplitter to break text into ~1k-char chunks with overlap
-splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+splitter = RecursiveCharacterTextSplitter(chunk_size=950, chunk_overlap=150)
 docs = []
 
 # Process official (PDF-derived) chunks
