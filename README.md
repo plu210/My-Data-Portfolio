@@ -24,7 +24,16 @@ A Phase 1 RAG prototype assistant combining official VA policy documents with co
 </table>
 <p align="center"><i>Click any image to view in full resolution.</i></p>
 
-[![VA Helper Demo](./VA-Helper/demo.gif)](./VA-Helper)
+<p align="center">
+  <a href="./VA-Helper">
+    <img src="./assets/q1_no_diagnosis.gif" alt="VA Helper Demo" width="500"/>
+  </a>
+</p>
+<p align="center">
+  <i>
+    User asks “Can I apply for tinnitus benefits without a formal diagnosis?” and receives a structured answer showing both official VA policy and real-world community insights.
+  </i>
+</p>
 
 **Tech Stack:** Python · LangChain · Ollama · Streamlit
 
