@@ -31,7 +31,7 @@ A Phase 1 RAG prototype assistant combining official VA policy documents with co
 </p>
 <p align="center">
   <i>
-    User asks “Can I apply for tinnitus benefits without a formal diagnosis?” and receives a structured answer showing both official VA policy and real-world community insights.
+    <b>Demo:</b> User asks “Can I apply for tinnitus benefits without a formal diagnosis?” and receives a structured answer showing both official VA policy and real-world community insights.
   </i>
 </p>
 
