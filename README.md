@@ -10,12 +10,14 @@ A Phase 1 RAG prototype assistant combining official VA policy documents with co
 
 <table>
   <tr>
+    <td><img src="./assets/VAHelper_Diagram.png" width="455"/></td>
     <td><img src="./assets/VAHelper_loaddata.png" width="455"/></td>
     <td><img src="./assets/VAHelper_pipeline.png" width="455"/></td>
     <td><img src="./assets/VAHelper_prompt_eng.png" width="455"/></td>
     
   </tr>
   <tr>
+    <td align="center"><b>VA Helper Pipeline Diagram:</b> End-to-end workflow showing how VA Helper processes policy documents and community texts, retrieves relevant context, and generates structured answers to user queries</td>
     <td align="center"><b>Data Loading and Preprocessing:</b> Parsed, cleaned, and segmented source files into 388 document pieces, yielding 887 text chunks ready for vector retrieval </td>
     <td align="center"><b>Retrieval and Generation:</b> Vectorized 1113 text chunks, then retrieved and generated both <i>Official Policy</i> and <i>Community Insights</i> answers for the sample query: “Can I apply for tinnitus benefits without a formal diagnosis?” </td>
     <td align="center"><b>Prompt Engineering Snippet:</b> Example of a structured system prompt directing the LLM to reason step-by-step and format answers into “Official Policy” and “Community Insights,” following custom formatting and tone guidelines.
