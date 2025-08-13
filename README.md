@@ -80,18 +80,38 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
 
 *Note: This was a collaborative, end-to-end product design and ML project. Repository is private due to course policy
 
-### [San Francisco Traffic Collision Data Analysis](./San%Francisco%Traffic%Collision%Data%Analysis)
+### [San Francisco Traffic Collision Data Analysis](./San%20Francisco%20Traffic%20Collision%20Data%20Analysis)
 _Solo project_
 
 Python EDA of San Francisco bicycle & pedestrian collisions (2006–2022) using [SFCTA data](https://safety.sfcta.org/). Investigates **Vision Zero (2014)** trend shifts, **street-level risk**, and **mode severity** (pedestrian vs. bicycle) with static charts and interactive maps.
 
-[Open in Google Colab](./San%Francisco%Traffic%Collision%Data%Analysis/SanFranciscoTrafficCollisionDataAnalysis.ipynb)
+[Open in Google Colab](./San%20Francisco%20Traffic%20Collision%20Data%20Analysis/SanFranciscoTrafficCollisionDataAnalysis.ipynb)
 
-[View on nbviewer]()
+[View on nbviewer](https://nbviewer.org/github/plu210/My-Data-Portfolio/blob/main/San%20Francisco%20Traffic%20Collision%20Data%20Analysis/SanFranciscoTrafficCollisionDataAnalysis.ipynb)
 
+[View the HTML Version](./San%20Francisco%20Traffic%20Collision%20Data%20Analysis/SanFranciscoTrafficCollisionDataAnalysis.html)
+
+<table>
+  <tr>
+    <td><img src="./assets/SFTCDA_V0.png" width="455"/></td>
+    <td><img src="./assets/Fatalities_per_collision_top5.png" width="455"/></td>
+    <td><img src="./assets/Highest_Fatalities_per_collision.png" width="455"/></td>
+    <td><img src="./assets/SFTCDA_fatalitiy_rates.png" width="455"/></td>
+    <td><img src="./assets/SFTCDA_map_both.png" width="455"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Number of Collisions Per Year (Pre vs Post Vision Zero):</b> On average, the change in collision rates is 7.01% from 2008 to 2014, succeeded by a downtrend trend of -5.07% in the change in collision rates from 2014 to 2020. This observation underscores a shift in collision occurrences over the specified period, potentially linked to the introduction of Vision Zero initiatives.</td>
+    <td align="center"><b>Fatalities Per Collision on Top 5 Streets:</b> MISSION ST: 3.06%, MARKET ST: 2.44%, GEARY BLVD: 4.64%, FOLSOM ST: 2.37%, POLK ST: 1.49%.</td>
+    <td align="center"><b>Streets with Highest Fatalities per Collision:</b> Tennessee St and Tulare St each have a 100% fatalities-per-collision rate due to a single fatality on each street from 2006 to 2022, highlighting the need to consider both total deaths and rate for context.</td>
+    <td align="center"><b>Fatality Rates: Pedestrians vs Cyclists:</b> Pedestrian fatality rate 2.38% vs Cyclist 0.44%</td>
+    <td align="center"><b>Collision Incidents Map:</b> Interactive OpenStreetMap layer of San Francisco between 2014-2022 for pedestrain (red) and bicycle (teal)</td>
+  </tr>
+</table>
+<p align="center"><i>Click any image to view in full resolution.</i></p>
+    
 **Tech Stack:** Python · Pandas · NumPy · Matplotlib · Plotly Express
 
-*Note: Originally created for CSE 6040: Computing for Data Analytics and included here as a portfolio piece.
+*Note: Originally created as course project for CSE 6040: Computing for Data Analytics and included here as a portfolio piece.
 
 ## About
 
