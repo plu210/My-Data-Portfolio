@@ -80,6 +80,19 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
 
 *Note: This was a collaborative, end-to-end product design and ML project. Repository is private due to course policy
 
+### [San Francisco Traffic Collision Data Analysis](./San%Francisco%Traffic%Collision%Data%Analysis)
+_Solo project_
+
+Python EDA of San Francisco bicycle & pedestrian collisions (2006–2022) using [SFCTA data](https://safety.sfcta.org/). Investigates **Vision Zero (2014)** trend shifts, **street-level risk**, and **mode severity** (pedestrian vs. bicycle) with static charts and interactive maps.
+
+[Open in Google Colab](./San%Francisco%Traffic%Collision%Data%Analysis/SanFranciscoTrafficCollisionDataAnalysis.ipynb)
+
+[View on nbviewer]()
+
+**Tech Stack:** Python · Pandas · NumPy · Matplotlib · Plotly Express
+
+*Note: Originally created for CSE 6040: Computing for Data Analytics and included here as a portfolio piece.
+
 ## About
 
 - [LinkedIn](https://linkedin.com/in/jackplu)
