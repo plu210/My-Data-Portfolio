@@ -113,6 +113,8 @@ Python EDA of San Francisco bicycle & pedestrian collisions (2006–2022) using 
 
 *Note: Originally created as course project for CSE 6040: Computing for Data Analytics and included here as a portfolio piece.
 
+## Legacy Projects
+
 ## About
 
 - [LinkedIn](https://linkedin.com/in/jackplu)
