@@ -3,7 +3,7 @@ Hi, I'm Jack P. Lu, and this repository is a curated collection of my personal d
 
 ## Featured Projects
 
-### [VA Helper](./VA-Helper)
+### [VA Helper: Retrieval-Augmented Assistant for Tinnitus Claims](./VA-Helper)
 _Solo Project_
 
 A Phase 1 RAG prototype assistant combining official VA policy documents with community insights for veterans navigating tinnitus claims.
@@ -14,7 +14,6 @@ A Phase 1 RAG prototype assistant combining official VA policy documents with co
     <td><img src="./assets/VAHelper_loaddata.png" width="455"/></td>
     <td><img src="./assets/VAHelper_pipeline.png" width="455"/></td>
     <td><img src="./assets/VAHelper_prompt_eng.png" width="455"/></td>
-    
   </tr>
   <tr>
     <td align="center"><b>VA Helper Pipeline Diagram:</b> End-to-end workflow showing how VA Helper processes policy documents and community texts, retrieves relevant context, and generates structured answers to user queries</td>
@@ -39,8 +38,35 @@ A Phase 1 RAG prototype assistant combining official VA policy documents with co
 
 **Tech Stack:** Python · LangChain · Ollama · Streamlit
 
-### Vibe Check (private repo)
-_Team project (4)_  **Role:** Project manager and technical contributor — led evaluation design, coordinated team communication, and supported UI development.
+
+
+### [Engine RUL Prediction: Machine Learning Models Performance Comparison Study](./Engine_RUL_Prediction)
+_Solo Project_
+
+Developed a modular ML pipeline in R to preprocess and model NASA’s C-MAPSS data for Remaining Useful Life (RUL) prediction in turbine engines. Benchmarked traditional, ensemble, and deep learning models on sampled data to evaluate trade-offs in accuracy, interpretability, and generalizability.
+
+**[Read the full project report (PDF)](./docs/FinalProjectReport_JackLu_GT.pdf)**
+
+<table>
+  <tr>
+    <td><img src="./assets/Flowchart-Workflow_Pipeline.jpeg" width="455"/></td>
+    <td><img src="./assets/RUL_Dist_Uncapped.png" width="455"/></td>
+    <td><img src="./assets/RMSE_CappedvsRaw_FD001.png" width="455"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Engine RUL Prediction Pipeline:</b> Overview of the end-to-end workflow for preprocessing, feature engineering, model training, and evaluation on the NASA C-MAPSS dataset.</td>
+    <td align="center"><b>Raw RUL Distributions:</b> Boxplot showing uncapped Remaining Useful Life (RUL) for all datasets; the dashed red line marks the 75th-percentile cap used for label normalization.</td>
+    <td align="center"><b>Model Results:</b> Comparison of test set RMSE (both capped and true RUL) for FD001 across Ridge, Random Forest, XGBoost, and 1D-CNN models.</td>
+  </tr>
+</table>
+<p align="center"><i>Click any image to view in full resolution.</i></p>
+    
+**Tech Stack:** R · Tidyverse · glmnet · randomForest · xgboost · keras · tensorflow · Genetic Algorithms (GA) · Parallel Computing
+
+
+
+### Vibe Check: Sentiment-Driven Recommendation System (private repo)
+_Team Project (4)_  **Role:** Project manager and technical contributor — led evaluation design, coordinated team communication, and supported UI development.
 
 Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and a personalized venue recommendation engine with interactive “vibe weight” sliders and a map-based UI, achieving 78% Precision@3 in vibe tagging and 62% sentiment classification accuracy on the Yelp Open Dataset.
 
@@ -80,8 +106,10 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
 
 *Note: This was a collaborative, end-to-end product design and ML project. Repository is private due to course policy
 
+
+
 ### [San Francisco Traffic Collision Data Analysis](./San%20Francisco%20Traffic%20Collision%20Data%20Analysis)
-_Solo project_
+_Solo Project_
 
 Performed EDA in Jupyter using Python (Pandas, NumPy) of San Francisco bicycle & pedestrian collisions (2006–2022) using [SFCTA data](https://safety.sfcta.org/). Investigates **Vision Zero (2014)** trend shifts, **street-level risk**, and **mode severity** (pedestrian vs. bicycle) with static charts and interactive maps.
 
