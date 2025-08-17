@@ -140,7 +140,7 @@ Performed EDA in Jupyter using Python (Pandas, NumPy) of San Francisco bicycle &
 *Note: Originally created as course project for CSE 6040: Computing for Data Analytics and included here as a portfolio piece.
 
 ## Legacy Projects
-### [DSP – NP Fall 2K17 Recruitment Drive]
+### DSP – NP Fall 2K17 Recruitment Drive
 _Solo Project_
 
 Developed an interactive Tableau dashboard to analyze and visualize recruitment outcomes for Delta Sigma Pi’s Fall 2017 drive at UC Davis. Collaborated with recruitment leadership to define data collection strategy and independently built the dashboard to identify actionable insights. Recommendations based on the analysis supported future event planning and helped increase event attendance by 35% the following academic year.
