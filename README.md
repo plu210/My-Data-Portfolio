@@ -108,7 +108,7 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
 
 
 
-### San Francisco Traffic Collision Data Analysis(./San%20Francisco%20Traffic%20Collision%20Data%20Analysis)
+### [San Francisco Traffic Collision Data Analysis](./San%20Francisco%20Traffic%20Collision%20Data%20Analysis)
 _Solo Project_
 
 Performed EDA in Jupyter using Python (Pandas, NumPy) of San Francisco bicycle & pedestrian collisions (2006–2022) using [SFCTA data](https://safety.sfcta.org/). Investigates **Vision Zero (2014)** trend shifts, **street-level risk**, and **mode severity** (pedestrian vs. bicycle) with static charts and interactive maps.
