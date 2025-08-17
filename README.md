@@ -139,7 +139,7 @@ Performed EDA in Jupyter using Python (Pandas, NumPy) of San Francisco bicycle &
 
 *Note: Originally created as course project for CSE 6040: Computing for Data Analytics and included here as a portfolio piece.
 
-## Legacy Projects
+## Legacy Project
 ### DSP – NP Fall 2K17 Recruitment Drive
 _Solo Project_
 
