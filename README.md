@@ -108,7 +108,7 @@ Developed a two-tier sentiment analysis pipeline (VADER + Google Cloud NLP) and 
 
 
 
-### [San Francisco Traffic Collision Data Analysis](./San%20Francisco%20Traffic%20Collision%20Data%20Analysis)
+### San Francisco Traffic Collision Data Analysis(./San%20Francisco%20Traffic%20Collision%20Data%20Analysis)
 _Solo Project_
 
 Performed EDA in Jupyter using Python (Pandas, NumPy) of San Francisco bicycle & pedestrian collisions (2006–2022) using [SFCTA data](https://safety.sfcta.org/). Investigates **Vision Zero (2014)** trend shifts, **street-level risk**, and **mode severity** (pedestrian vs. bicycle) with static charts and interactive maps.
@@ -140,6 +140,24 @@ Performed EDA in Jupyter using Python (Pandas, NumPy) of San Francisco bicycle &
 *Note: Originally created as course project for CSE 6040: Computing for Data Analytics and included here as a portfolio piece.
 
 ## Legacy Projects
+### [DSP – NP Fall 2K17 Recruitment Drive]
+_Solo Project_
+
+Developed an interactive Tableau dashboard to analyze and visualize recruitment outcomes for Delta Sigma Pi’s Fall 2017 drive at UC Davis. Collaborated with recruitment leadership to define data collection strategy and independently built the dashboard to identify actionable insights. Recommendations based on the analysis supported future event planning and helped increase event attendance by 35% the following academic year.
+
+[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/jack2748/viz/DSPFall2K17Recruitment/DSP-NPFall2017RecruitmentDrive?publish=yes)
+
+<table>
+  <tr>
+    <td><img src="./assets/FinalDashboard.png" width="455"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Final Dashboard & Insights:</b> Summary of recruitment outcomes (# of Attendees), channels (“How did you hear about us?”), and actionable recommendations for future outreach. Analysis highlights the importance of word-of-mouth marketing and optimizing MU Tabling resources.</td>
+  </tr>
+</table>
+<p align="center"><i>Click on image to view in full resolution.</i></p>
+
+**Tech Stack:** Tableau
 
 ## About
 
